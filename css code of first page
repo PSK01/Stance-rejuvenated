@@ -1,0 +1,20 @@
+div.content{width:100%;background-color:#F8F8F8 ;height:651px;}
+div.bar {background-color:#778899;margin:0px;border:0px;padding:13px;widhth:100%;}
+div.myquery{font-family:Georgia, serif;font-size:50px;color:#000000;text-align:center;}
+div.form {margin:auto;padding:40px;-moz-box-shadow:8px 8px 10px #A9A9A9;box-shadow:8px 8px 10px #A9A9A9;-moz-border-radius:5px;border-radius:5px;
+width:48%;height:330px;border-style:solid;border-width:2px;border-color:#A9A9A9;margin-top:45px;background-color:#D8D8D8 ;}
+div.line1{width:32%;position:absolute;left:460px;top:190px;}
+div.line2{width:32%;position:absolute;left:460px;top:230px;}
+div.line3{width:32%;position:absolute;left:460px;top:270px;}
+div.line4{width:32%;position:absolute;left:460px;top:310px;}
+div.line5{width:32%;position:absolute;left:460px;top:350px;}
+div.line6{width:32%;position:absolute;left:460px;top:460px;}
+a:link,a:visited{display:block;font-size:20px;color:#FFFFFF;background-color:#4169E1;width:100px;text-align:center;padding:2px;text-decoration:none;
+border-radius:8px;-moz-border-radius:8px;float:right;}
+a:hover,a:active{background-color:#4169E1;}
+
+
+div.value{font-family:Georgia, serif;font-size:23px;color:#404040;float:left;}
+div.text{float:right;}
+input{width:294px;border:1px solid transparent;border-radius:3px;}
+textarea{border:1px solid transparent;border-radius:3px;}
