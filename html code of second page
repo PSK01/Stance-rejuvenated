@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Query</title>
+<style type="text/css">
+
+</style>
+<link rel="stylesheet" href="../css/comment.css"/>
+ </head>
+ <body>
+ <div class="container">
+	
+		<div class="bar">
+			<div class="myquery"><b>MY QUERY</b></div>
+		</div>
+	
+		<div class="namebar">
+			<div class="name">Name</div>
+			<div class="email">name@email.com</div>
+		</div>
+	
+		<div class="topicbar">
+			<div class="topic"><b>Topic</b></div>
+			<div class="topictext">Here the topic of the problem will b displayed.</div>
+		<div>
+		
+		<div class="descbar">
+			<div class="desc"><b>Description</b></div>
+			<div class="desctext">Here the detailed description of the problem will b displayed.</div>
+		</div>
+		
+	<div class="empty">
+			<div class="userbar">
+				<div class="username">Username</div>
+				<div class="useremail">username@email.com</div>
+			<div>
+			<div class="textbox">
+				<div class="text">Here the text written by the user will be displayed, which he would write on the comment box given below.</div>
+			</div>
+			<div class="memberbar">
+				<div class="username">Membername</div>
+				<div class="useremail">membername@email.com</div>
+			</div>
+			<div class="membertextbox">
+				<div class="text">Here the text written by the other member will b displayed.</div>
+			</div>
+	</div>
+	<form>
+		<div class="comment">
+			<div class="usertext"><input class="comment" type="text" name="username" placeholder="Username"/></div>
+			<div class="emailtext"> <input class="comment" type="text" name="email" placeholder="Email"/></div>
+		</div>	
+		<div class="commentbox">
+			<div class="commenttext"><textarea class="commentbox" rows="3" cols="70"  name="comment" placeholder="Enter your comment here !"></textarea></div>
+			<div class="submit"><input class="submit" type="submit" value="Comment"></div>
+		</div>	
+	</form>	
+</div>
+</body>
+</html>	
