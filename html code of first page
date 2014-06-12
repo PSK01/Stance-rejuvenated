@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to My Query</title>
+<style type="text/css">
+
+</style>
+<link rel="stylesheet" href="../css/newmyquery.css"/>
+</head>
+<body>
+<div class="content">
+	<div class="bar">
+		<div class="myquery"><b>MY QUERY</b></div>
+	</div>
+	<div class="form">
+		<form>
+			<div class="line1">
+				<div class="value">Username</div>
+				<div class="text">	<input type="text" name="username" /></div>
+			</div>
+			<div class="line2">
+				<div class="value">Email</div>
+				<div class="text">	<input type="text" name="email"/></div>
+			</div>	
+			<div class="line3">
+				<div class="value">Title</div>
+				<div class="text">	<input type="text" name="title"/></div>
+			</div>	
+			<div class="line4">
+				<div class="value">Shortlink</div>
+				<div class="text">	<input type="text" name="shortlink"/></div>
+			</div>	
+			<div class="line5">
+				<div class="value">Description</div>
+				<div class="text">	<textarea rows="5" cols="34"></textarea></div>
+			</div>
+			<div class="line6">
+				<a href="comment" target="_blank">Comment</a>
+			</div>	
+		</form>
+	</div>	
+</div>
+</body>
+</html>	
