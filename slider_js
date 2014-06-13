@@ -1,0 +1,62 @@
+
+$(document).ready(function(){
+	
+	var x;
+	var index=$('ul.index li');
+	var images=$('ul.images li');
+	var last=index.length-1;
+	var box=$('.box ul.images');
+	var imgWidth=images.width();
+	var a=imgWidth*(last+1);
+	var b=a+"px";
+	var timer;
+	
+	index.first().addClass('selected');
+	
+	box.css('width',b);
+
+	timer= setInterval(Timing,3000);
+	
+	function Slider(x){
+		var c=-(imgWidth*x);
+		var d=c+"px";
+		box.stop(true,false).animate({left:d},300);
+		index.removeClass('selected').eq(x).addClass('selected');
+	}
+	
+	index.click(function(){
+		if(!$(this).hasClass('selected')){
+			x=$(this).index();
+			Slider(x);
+			Reset();
+		}
+	})
+	
+	$('.next').click(function(){
+		x=$('ul.index li.selected').index();
+		x=(x===last)?0:(x+1);
+		Slider(x);
+		Reset();
+	})
+	
+	$('.prev').click(function(){
+		x=$('ul.index li.selected').index();
+		last= index.length-1;
+		x=(x===0)?last:(x-1);
+		Slider(x);
+		Reset;
+	})
+	
+	function Timing(){
+		x=$('ul.index li.selected').index();
+		x=(x===last)?0:(x+1);
+		Slider(x);
+		}
+	
+	
+	function Reset(){
+		clearInterval(timer);
+		timer=setInterval(Timing,3000);
+	}
+
+});
