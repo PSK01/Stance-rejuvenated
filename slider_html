@@ -1,0 +1,36 @@
+<!-- jquery based slider code -->
+<html>
+	<head>
+		<!-- external stylesheet named slider_style.css attached -->
+		<link rel="stylesheet" type="text/css" href="slider_style.css" />
+
+		<script type="text/javascript" src="jquery.js"></script>
+		<!-- external js file named slider_script.js attached -->
+		<script type="text/javascript" src="slider_script.js"></script>
+     </head>
+	
+	<body>
+	<div class="bigbox">
+		<div class="box">
+			<ul class="images">
+			
+				<!-- change the width and height of the slider accordingly-->
+				<!-- Make changes in the css file as per the decided layout-->
+				<!-- Reposition the div tag as per the requirement-->
+				<li><img width="750" height="500"src="Black_and_white_branch.jpg"/></li>
+				<li><img width="750" height="500" src="Black_And_White_Pictures...jpg"/></li>
+				<li><img width="750" height="500" src="black_and_white_photography_by_remorsefulpromises-d3aemrg.jpg"/></li>
+				<li><img width="750" height="500" src="Puzzle-black-and-white-photography-22237321-1280-1024.jpg"/></li>
+			</ul>
+		</div>
+		<ul class="index">
+			<li>1</li>
+			<li>2</li>
+			<li>3</li>
+			<li>4</li>
+		</ul>
+		<span class="prev"><b>Prev</b></span>
+		<span class="next"><b>Next</b></span>
+	</div>
+	</body>
+</html>
