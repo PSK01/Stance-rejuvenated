@@ -1,0 +1,59 @@
+<!-- css file for the jquery based slider -->
+	.bigbox{
+		background-color:#000;
+		position:relative;
+		font-size:14px;
+		font-family:arial;
+		width:750px;
+		height:500px;
+	}
+	.box{
+		position: relative;
+		left:300px;
+		right:100px;
+		width:750px;
+		height:500px;
+		overflow:hidden;
+		top:100px
+		
+	}
+		ul.images{
+		position:relative;
+		top:0;
+		left:0;
+		margin:-40px;
+	}
+	ul.images li{
+		float:left;
+	}
+	ul.index{
+		position:absolute;
+		top:480px;
+		left:850px;
+	}
+	ul.index li{
+		float:left;
+		margin:0 5px;
+		font:bold 16px arial;
+		cursor:pointer;
+		background-color:#444;
+		color:#ccc;
+		padding:10px;
+	}
+	.selected{
+		background-color:#333;
+	}
+	.prev{
+		position:absolute;
+		top:540px;
+		color:#fff;
+		cursor:pointer;
+		left:920px;
+	}
+	.next{
+		position:absolute;
+		top:540px;
+		color:#fff;
+		cursor:pointer;
+		left:990px;
+	}
