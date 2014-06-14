@@ -1,3 +1,6 @@
+//here comment is the id of the div tag used for submission of the form. Change it accordingly.
+//here myForm is the id of the form used. Change it accordingly
+//set the name of the php file (userInfo.php and userInfo1.php) as the action attribute of the form. 
 $(document).on("click","#comment",function(){
 	fname();
 	clearInput();
@@ -8,7 +11,7 @@ $(document).on("click","#comment",function(){
 	});
 	
 	function clearInput() {
-	$("#myForm :input").each( function() {
+	$("#myForm").each( function() {
 	$(this).val('');
 	});
 	}
